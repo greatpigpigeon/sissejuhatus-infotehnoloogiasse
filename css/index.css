@@ -22,19 +22,24 @@ table {
     font-size: 50px;
     table-layout: fixed;
     width: 700px;
-    border: 2px solid purple;
+    border: 2px solid #bfb5d7;
     border-radius: 10%;
     margin: 10px;
     border-spacing: 5px;
 }
 
 td {
-    border: 2px solid blue;
+    border: 2px solid #f3c9dd;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    border-radius: 40%;
+    border-radius: 45%;
     text-align: center;
+}
+.beautiful_img{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 .img_text{
     display: flex;
