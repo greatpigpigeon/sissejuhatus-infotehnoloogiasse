@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Linoscript";
+    src: url("../fonts/Linoscript.ttf");
+}
+body{
+    font-family: "Linoscript";
+}
+body>img{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: block;
+}
+h1{
+    font-size:100px;
+    margin: 0px 0;
+}
+p{
+    font-size: 100px;
+    margin: 5px 0;
+}
+table {
+    font-size: 50px;
+    table-layout: fixed;
+    width: 700px;
+    border: 2px solid purple;
+    border-radius: 10%;
+    margin: 10px;
+    border-spacing: 5px;
+}
+
+td {
+    border: 2px solid blue;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-radius: 40%;
+    text-align: center;
+}
+.img_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img_text img{
+    max-width: 500px;
+    border-radius: 20px;
+    height: 500px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+}
